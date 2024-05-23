@@ -32,3 +32,8 @@ Ajouter des commentaires selon les cas
 ## Ce serveur/application/... est un cas particulier
 
 * voir : On a pas besoin de documentation
+
+## Qui a fait ça ?
+
+* voir : On a pas besoin de documentation
+* Un type partie il y a 3 ans élever des chêvres dans le Larzak
