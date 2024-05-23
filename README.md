@@ -1,4 +1,4 @@
-# Petite phrase +/- amusante autour de l'IT
+# Petite phrases +/- amusante autour de l'IT
 
 Ajouter des commentaires selon les cas
 
