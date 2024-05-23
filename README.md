@@ -11,3 +11,7 @@ Ajouter des commentaires selon les cas
 
 * Si vous ete client, pensez à réclamer le monitoring
 * Mettre au point des méthodes, sondes, métrique pour détecter les problèmes
+
+## Tout les actions doivent etre documenté
+
+* todo ...
