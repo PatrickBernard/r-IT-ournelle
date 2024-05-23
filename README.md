@@ -15,3 +15,8 @@ Ajouter des commentaires selon les cas
 ## Tout les actions doivent etre documenté
 
 * todo ...
+
+## Il y a deux bouts à un cable
+
+* Celle la permet de résoudre 99% des problemes d'IT
+* Vérifier toute la chaine de communication, que ça soit matériel, logiciel ou humain
