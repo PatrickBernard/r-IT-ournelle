@@ -1,6 +1,6 @@
 # Petite phrase +/- amusante autour de l'IT
 
-Ajouter des commentaire selon les cas
+Ajouter des commentaires selon les cas
 
 ## S'il n'y a pas de backup, ça n'éxiste pas
 
