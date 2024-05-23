@@ -20,3 +20,15 @@ Ajouter des commentaires selon les cas
 
 * Celle la permet de résoudre 99% des problemes d'IT
 * Vérifier toute la chaine de communication, que ça soit matériel, logiciel ou humain
+
+## J'entends ...
+
+* Il a pas entendu
+
+## On a pas besoin de documentation
+
+* Sauf le jour ou celui qui sait n'est pas dispo
+
+## Ce serveur/application/... est un cas particulier
+
+* voir : On a pas besoin de documentation
