@@ -40,3 +40,4 @@ Ajouter des commentaires selon les cas
 
 * voir : On a pas besoin de documentation
 * Un type partie il y a 3 ans élever des chêvres dans le Larzak
+* git blame
