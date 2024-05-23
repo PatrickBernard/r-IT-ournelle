@@ -1,6 +1,7 @@
 # Petite phrases +/- amusante autour de l'IT
 
 Anedocte personnelle, ou déjà entendu ailleurs
+
 Ajouter des commentaires selon les cas
 
 ## S'il n'y a pas de backup, ça n'éxiste pas
