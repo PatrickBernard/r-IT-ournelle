@@ -27,6 +27,7 @@ Ajouter des commentaires selon les cas
 
 ## On a pas besoin de documentation
 
+* On a besoin d'une documentation
 * Sauf le jour ou celui qui sait n'est pas dispo
 
 ## Ce serveur/application/... est un cas particulier
