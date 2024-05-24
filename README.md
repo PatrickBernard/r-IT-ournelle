@@ -4,6 +4,10 @@ Anedocte personnelle, ou déjà entendu ailleurs
 
 Ajouter des commentaires selon les cas
 
+Forme final:
+
+* une présentation, titre + commentaire ?
+
 ## S'il n'y a pas de backup, ça n'éxiste pas
 
 * Il s'agit d'un serveur jetable
