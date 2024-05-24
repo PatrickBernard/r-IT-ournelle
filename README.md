@@ -31,10 +31,11 @@ Ajouter des commentaires selon les cas
 ## On a pas besoin de documentation
 
 * On a besoin d'une documentation
-* Sauf le jour ou celui qui sait n'est pas dispo
+* Sauf le jour ou le seul qui connais n'est pas dispo
 
 ## Ce serveur/application/... est un cas particulier
 
+* Et une seul personne sait comment ça marche
 * voir : On a pas besoin de documentation
 
 ## Qui a fait ça ?
