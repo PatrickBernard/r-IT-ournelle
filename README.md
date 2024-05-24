@@ -25,7 +25,8 @@ Ajouter des commentaires selon les cas
 
 ## J'entends ...
 
-* Il a pas entendu
+* Il a pas entendu et s'en fou
+* Il est contre cette idée
 
 ## On a pas besoin de documentation
 
@@ -41,3 +42,8 @@ Ajouter des commentaires selon les cas
 * voir : On a pas besoin de documentation
 * Un type partie il y a 3 ans élever des chêvres dans le Larzak
 * git blame
+
+## Pas de mise en prod le vendredi
+
+* On est le matin on a le temps de rollback
+* Avec une cycle de production efficace cette peur devrait disparaitre (test, qa, staging, preprod) mais tout le monde n'est pas rigoureux
