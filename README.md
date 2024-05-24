@@ -47,3 +47,7 @@ Ajouter des commentaires selon les cas
 
 * On est le matin on a le temps de rollback
 * Avec une cycle de production efficace cette peur devrait disparaitre (test, qa, staging, preprod) mais tout le monde n'est pas rigoureux
+
+## C'est sur la roadmap
+
+* ... et le client nous a cru
