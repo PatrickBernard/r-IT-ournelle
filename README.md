@@ -54,3 +54,7 @@ Forme final: une présentation, titre + commentaire ?
 ## C'est sur la roadmap
 
 * ... et le client nous a cru
+
+## RTFM
+
+* Read The Fucking Manual
