@@ -62,3 +62,4 @@ Forme final: une présentation, titre + commentaire ?
 ## Etre capable de travailler sans internet
 
 * en télétravail complet
+* par pigeon voyageur
