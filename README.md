@@ -58,3 +58,7 @@ Forme final: une présentation, titre + commentaire ?
 ## RTFM
 
 * Read The Fucking Manual
+
+## Etre capable de travailler sans internet
+
+* en télétravail complet
