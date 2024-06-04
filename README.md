@@ -49,7 +49,7 @@ Forme final: une présentation, titre + commentaire ?
 ## Pas de mise en prod le vendredi
 
 * On est le matin on a le temps de rollback
-* Avec une cycle de production efficace cette peur devrait disparaitre (test, qa, staging, preprod) mais tout le monde n'est pas rigoureux
+* Avec un cycle de production efficace cette peur devrait à terme disparaitre (test, qa, staging, preprod), mais tout le monde n'est pas rigoureux
 
 ## C'est sur la roadmap
 
