@@ -1,4 +1,4 @@
-# Petite phrases +/- amusante autour de l'IT
+# Petites phrases +/- amusante autour de l'IT
 
 Anedocte personnelle, ou déjà entendu ailleurs
 
