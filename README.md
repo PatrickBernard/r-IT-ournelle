@@ -63,3 +63,5 @@ Forme final: une présentation, titre + commentaire ?
 
 * en télétravail complet
 * par pigeon voyageur
+
+## Si un ordinateur peu le faire... il doit le faire
