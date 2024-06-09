@@ -64,3 +64,8 @@ Forme final: une présentation, titre + commentaire ?
 * par pigeon voyageur
 
 ## Si un ordinateur peu le faire... il doit le faire
+
+## Si on ne peut plus prévoir de période de maintenance, il est déjà trop tard
+
+* le serveur est critique ne peut etre éteind
+* il cumule tellement de retard qu'il ne peut plus etre mis à jour simplement
