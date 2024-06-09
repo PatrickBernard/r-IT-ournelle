@@ -59,9 +59,8 @@ Forme final: une présentation, titre + commentaire ?
 
 * Read The Fucking Manual
 
-## Etre capable de travailler sans internet
+## Etre capable de travailler sans internet (en TT complet)
 
-* en télétravail complet
 * par pigeon voyageur
 
 ## Si un ordinateur peu le faire... il doit le faire
