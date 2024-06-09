@@ -75,3 +75,8 @@ Forme final: une présentation, titre + commentaire ?
 * il cumule tellement de retard qu'il ne peut plus etre mis à jour simplement
 
 ## Un avis c'est quand on ne sait pas
+
+## Un bon adminsys est invisible
+
+* Personne ne sait quand il fait du bon travail
+* Tout le monde sait quand il y a un pépins
