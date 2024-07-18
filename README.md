@@ -71,10 +71,10 @@ Forme final: une présentation, titre + commentaire ?
 
 ## Si on ne peut plus prévoir de période de maintenance, il est déjà trop tard
 
+* Si tu ne prévoit pas de maintenance, la maintenance viendra à toi
 * le serveur est critique ne peut etre éteind
 * il cumule tellement de retard qu'il ne peut plus etre mis à jour simplement
-
-## Un avis c'est quand on ne sait pas
+* le serveur servira dans une attaque de botnet
 
 ## Un bon adminsys est invisible
 
