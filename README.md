@@ -20,6 +20,12 @@ Forme final: une présentation, titre + commentaire ?
 
 * todo ...
 
+## Chaque bug, incidents, pénétration dans le SI doit etre documenté
+
+* Pour permettre une réponse rapide
+* Pour éviter que ça recommence
+* Pour pouvoir le reproduire et améliorer la réponse
+
 ## Il y a deux bouts à un cable
 
 * Celle la permet de résoudre 99% des problemes d'IT
