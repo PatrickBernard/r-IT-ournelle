@@ -50,6 +50,7 @@ Forme final: une présentation, titre + commentaire ?
 
 * On est le matin on a le temps de rollback
 * Avec un cycle de production efficace cette peur devrait à terme disparaitre (test, qa, staging, preprod), mais tout le monde n'est pas rigoureux
+* Patch CrowdStrike du 19/07
 
 ## C'est sur la roadmap
 
