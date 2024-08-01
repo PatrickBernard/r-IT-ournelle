@@ -87,3 +87,7 @@ Forme final: une présentation, titre + commentaire ?
 
 * Personne ne sait quand il fait du bon travail
 * Tout le monde sait quand il y a un pépins
+
+## ça marche sur mon poste
+
+* On va mettre ton poste en prod
