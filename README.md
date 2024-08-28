@@ -11,6 +11,8 @@ Forme final: une présentation, titre + commentaire ?
 * Il s'agit d'un serveur jetable
 * Si vous ete client, n'oubliez pas de réclamez des backups de vos serveurs important
 
+## Il y a deux types de personnes, celles qui ont perdu des données, et celles qui vont en perdre.
+
 ## Si ce n'est pas monitoré, il n'y a pas de problème
 
 * Si vous ete client, pensez à réclamer le monitoring
