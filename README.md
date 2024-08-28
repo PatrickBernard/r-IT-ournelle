@@ -13,6 +13,8 @@ Forme final: une présentation, titre + commentaire ?
 
 ## Il y a deux types de personnes, celles qui ont perdu des données, et celles qui vont en perdre.
 
+* Backup
+
 ## Si ce n'est pas monitoré, il n'y a pas de problème
 
 * Si vous ete client, pensez à réclamer le monitoring
