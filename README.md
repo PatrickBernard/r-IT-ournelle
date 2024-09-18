@@ -59,8 +59,8 @@ Forme final: une présentation, titre + commentaire ?
 ## Pas de mise en prod le vendredi
 
 * On est le matin on a le temps de rollback
-* Avec un cycle de production efficace cette peur devrait à terme disparaitre (test, qa, staging, preprod), mais tout le monde n'est pas rigoureux
-* Patch CrowdStrike du 19/07
+* Avec un cycle de production efficace cette peur devrait à terme disparaitre, test => qa => staging => preprod => prod, mais tout le monde n'est pas rigoureux
+* ex : Patch CrowdStrike du 19/07
 
 ## C'est sur la roadmap
 
@@ -74,11 +74,18 @@ Forme final: une présentation, titre + commentaire ?
 
 * par pigeon voyageur
 
+## Sur l'automatisation
+
+* si tu doit le faire une fois : fait le
+* si tu dois le faire deux fois : automatise le
+* Une tâche qui est faite au moins deux fois doit être automatisée
+
 ## Si un ordinateur peu le faire... il doit le faire
 
 * automatisation
 * historisation
 * ...
+
 
 ## Si on ne peut plus prévoir de période de maintenance, il est déjà trop tard
 
