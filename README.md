@@ -6,6 +6,12 @@ Ajouter des commentaires selon les cas
 
 Forme final: une présentation, titre + commentaire ?
 
+## Si on se protège soi-même on protège les autres
+
+* on casse les chaines de transmission
+* marche dans de nombreux domaines autre que l'IT : transmission virus, escroquerie, ...
+* voir esprit critique
+
 ## S'il n'y a pas de backup, ça n'éxiste pas
 
 * Il s'agit d'un serveur jetable
