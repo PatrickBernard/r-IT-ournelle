@@ -118,6 +118,7 @@ Forme final: une présentation, titre + commentaire ?
 * la complexité du code amene des erreurs
 * l'élégance d'un code et sa beauté ... n'est pas sa compléxité mais la faculté d'étre compréhensible par un maximum de personne
 * Phrase de D.Ritchie (à vérifier) : "Unix est tellment simple qu'il faut etre un génie pour le comprendre"
+* https://laravel-france.com/posts/vous-ecrivez-pour-etre-lu
 
 ## Comment rendre inaccessible une machine depuis son terminal 
 (genre un nœud de calcul qui deviens fou)
