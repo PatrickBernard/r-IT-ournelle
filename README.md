@@ -48,8 +48,8 @@ Forme final: une présentation, titre + commentaire ?
 
 ## On a pas besoin de documentation
 
-* On a besoin d'une documentation
 * Sauf le jour ou le seul qui connais n'est pas dispo
+* On a besoin d'une documentation
 
 ## Ce serveur/application/... est un cas particulier
 
