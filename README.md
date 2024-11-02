@@ -112,3 +112,9 @@ Forme final: une présentation, titre + commentaire ?
 ## Les shell sans set -euo pipefail au début, c'est le MAL.
 
 * https://gist.github.com/mohanpedala/1e2ff5661761d3abd0385e8223e16425?permalink_comment_id=3935570
+
+## On écris du code pour etre lu
+
+* la complexité du code amene des erreurs
+* l'élégance d'un code et sa beauté ... n'est pas sa compléxité mais la faculté d'étre compréhensible par un maximum de personne
+* Phrase de D.Ritchie (à vérifier) : "Unix est tellment simple qu'il faut etre un génie pour le comprendre"
