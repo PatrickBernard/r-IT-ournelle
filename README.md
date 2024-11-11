@@ -119,19 +119,3 @@ Forme final: une présentation, titre + commentaire ?
 * l'élégance d'un code et sa beauté ... n'est pas sa compléxité mais la faculté d'étre compréhensible par un maximum de personne
 * Phrase de D.Ritchie (à vérifier) : "Unix est tellment simple qu'il faut etre un génie pour le comprendre"
 * https://laravel-france.com/posts/vous-ecrivez-pour-etre-lu
-
-## Comment rendre inaccessible une machine depuis son terminal 
-(genre un nœud de calcul qui deviens fou)
-
-* tout ce qui est extinction : shutdown -n, poweroff, ...
-* couper le réseaux : service networking stop, ...
-* gestion matériel : ipmitool ( si bare-metal )
-
-Ensuite on a les trucs de barbu
-* kill init
-* linux Magic SysRq key <https://fr.wikipedia.org/wiki/Magic_SysRq_key>
-
-## Modifier les droits d'un fichier avec un chmod qui à perdu ses droits
-
-* mettre le contenu de chmod dans un fichier avec les droits d'éxécution ; `cp /bin/ls chmodbis ; cat /bin/chmod > chmodbis ; ./chmodbis +x /bin/chmod`
-* python : `os.chmod`
