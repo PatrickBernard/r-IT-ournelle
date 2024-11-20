@@ -14,3 +14,5 @@ IPS | Système de Prévention des Intrusions | snort, suricata
 IaaS | Infrastructure-as-a-Service | louer une machine virtuel
 PaaS | Platform-as-a-Service | louer un wordpress
 SaaS | Software-as-a-Service | utiliser directement une application, dropbox, mail, ...
+MCO | maintien en condition opérationnelle
+MCS | maintien en condition de sécurité
