@@ -16,3 +16,4 @@ PaaS | Platform-as-a-Service | louer un wordpress
 SaaS | Software-as-a-Service | utiliser directement une application, dropbox, mail, ...
 MCO | maintien en condition opérationnelle
 MCS | maintien en condition de sécurité
+WAF | Web Application Firewall (WAF) | bunkerweb
