@@ -2,7 +2,9 @@
 
 Des actuces en vrac
 
-## proxmox : pct restore failed (no space left)
+## Proxmox
+
+### proxmox : pct restore failed (no space left)
 
 Probablement du a l'utilisation d'un disque compresser (zfs) migrer vers un volume non-compresser (ext4)
 
@@ -12,18 +14,16 @@ Il suffit de restaurer à la main en précisant la nouvelle taille
 pct restore <containerId> <pathToBackupArchive> --rootfs <sizeInGiB> --storage <nameOfTargetStorage>
 ```
 
-## clavier fr sur cloudinit proxmox
+### ajouter un clavier fr dans un cloudinit proxmox
 
 ```bash
 apt install keyboard-configuration console-setup
 ```
 
-## Boucle for en powershell
-```bash
-dir *.z64 | ForEach-Object { & 'C:\Program Files\7-Zip\7z.exe' a -tzip $_.BaseName $_.Name }
-```
 
-## Installation Linux avec un SSD
+## Linux
+
+### Installation Linux avec un SSD
 
 * monter les Partitions en noatime
 * Pas besoin de trop utiliser le swap sur le machine récente
@@ -37,19 +37,28 @@ Déconseiller en production
 ```bash
 apt install zram-tools
 ```
+### purger les vieille config 
 
-##  psql lent sur proxmox/lxc : (3h => 2 semaines)
+```bash
+apt purge $(dpkg -l | grep '^rc' | awk '{print $2}')
+```
+###  psql lent sur proxmox/lxc : (3h => 2 semaines)
 
-* (todo) problème apparement lié à zfs
+* (todo) problème apparement lié à zfs ?
 
-# windows
+## windows
 
-## récupérer la clef windows d'un laptop/minipc,...
+### Boucle for en powershell
+```bash
+dir *.z64 | ForEach-Object { & 'C:\Program Files\7-Zip\7z.exe' a -tzip $_.BaseName $_.Name }
+```
+
+### récupérer la clef windows d'un laptop/minipc,...
 
 ```bash
 strings /sys/firmware/acpi/tables/MSDM
 ```
-## eviter la connection a un compte microsoft lors de l'installation
+### eviter la connection a un compte microsoft lors de l'installation
 
 * ouvrir une console avec MAJ+F10
 ``OOBE\BYPASSNRO``
