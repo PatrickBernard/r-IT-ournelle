@@ -6,9 +6,11 @@ Des actuces en vrac
 
 ### proxmox : pct restore failed (no space left)
 
-Probablement du a l'utilisation d'un disque compresser (zfs) migrer vers un volume non-compresser (ext4)
+Du a l'utilisation d'un disque compresser (zfs) migrer vers un volume non-compresser (ext4) ?
+(Réponse de nidouille) C'est la migration du Mode block du zfs vers un file system qui a posé problème.
 
-Il suffit de restaurer à la main en précisant la nouvelle taille
+
+Il suffit de restaurer à la main depuis une backup. (j'ai du re-spécifier la taille du rootfs)
 
 ```bash
 pct restore <containerId> <pathToBackupArchive> --rootfs <sizeInGiB> --storage <nameOfTargetStorage>
