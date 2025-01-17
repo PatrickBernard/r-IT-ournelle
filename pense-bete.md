@@ -7,6 +7,7 @@ Des actuces en vrac
 ### proxmox : pct restore failed (no space left)
 
 Du a l'utilisation d'un disque compresser (zfs) migrer vers un volume non-compresser (ext4) ?
+
 (Réponse de nidouille) C'est la migration du Mode block du zfs vers un file system qui a posé problème.
 
 
