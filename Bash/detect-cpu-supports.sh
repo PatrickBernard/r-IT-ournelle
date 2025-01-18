@@ -1,11 +1,41 @@
-#!/bin/sh -eu
+#!/bin/sh
+set -e
 
-flags=$(cat /proc/cpuinfo | grep flags | head -n 1 | cut -d: -f2)
+verbose=
+while getopts v OPTLET; do
+  case "$OPTLET" in
+    v) verbose=1;;
+    \?) exit 2;;
+  esac
+done
 
-supports_v2='awk "/cx16/&&/lahf/&&/popcnt/&&/sse4_1/&&/sse4_2/&&/ssse3/ {found=1} END {exit !found}"'
-supports_v3='awk "/avx/&&/avx2/&&/bmi1/&&/bmi2/&&/f16c/&&/fma/&&/abm/&&/movbe/&&/xsave/ {found=1} END {exit !found}"'
-supports_v4='awk "/avx512f/&&/avx512bw/&&/avx512cd/&&/avx512dq/&&/avx512vl/ {found=1} END {exit !found}"'
+flags=$(grep '^flags\b' </proc/cpuinfo | head -n 1)
+flags=" ${flags#*:} "
 
-echo "$flags" | eval $supports_v2 || exit 2 && echo "CPU supports x86-64-v2"
-echo "$flags" | eval $supports_v3 || exit 3 && echo "CPU supports x86-64-v3"
-echo "$flags" | eval $supports_v4 || exit 4 && echo "CPU supports x86-64-v4"
+has_flags () {
+  for flag; do
+    case "$flags" in
+      *" $flag "*) :;;
+      *)
+        if [ -n "$verbose" ]; then
+          echo >&2 "Missing $flag for the next level"
+        fi
+        return 1;;
+    esac
+  done
+}
+
+determine_level () {
+  level=0
+  has_flags lm cmov cx8 fpu fxsr mmx syscall sse2 || return 0
+  level=1
+  has_flags cx16 lahf_lm popcnt sse4_1 sse4_2 ssse3 || return 0
+  level=2
+  has_flags avx avx2 bmi1 bmi2 f16c fma abm movbe xsave || return 0
+  level=3
+  has_flags avx512f avx512bw avx512cd avx512dq avx512vl || return 0
+  level=4
+}
+
+determine_level
+echo "CPU supports x86-64-v$level"
