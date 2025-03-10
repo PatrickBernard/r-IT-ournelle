@@ -61,13 +61,13 @@ apt purge $(dpkg -l | grep '^rc' | awk '{print $2}')
 dir *.z64 | ForEach-Object { & 'C:\Program Files\7-Zip\7z.exe' a -tzip $_.BaseName $_.Name }
 ```
 
-### récupérer la clef windows d'un laptop/minipc
+### Récupérer la clef windows d'un laptop/minipc
 
 ```bash
 strings /sys/firmware/acpi/tables/MSDM
 ```
 
-### eviter la connection a un compte microsoft lors de l'installation
+### Eviter la connection a un compte microsoft lors de l'installation
 
 * ouvrir une console avec MAJ+F10
-``OOBE\BYPASSNRO``
+* taper : ``OOBE\BYPASSNRO``
