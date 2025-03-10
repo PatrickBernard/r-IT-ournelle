@@ -1,6 +1,6 @@
 # Surtout des articles pense-bete
 
-## Emulaiton
+## Emulation
 
 Concernant les notes sur l'emulation de consoles
 
