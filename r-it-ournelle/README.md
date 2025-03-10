@@ -17,7 +17,7 @@ Forme final: une présentation, titre + commentaire ?
 * Il s'agit d'un serveur jetable
 * Si vous ete client, n'oubliez pas de réclamez des backups de vos serveurs important
 
-## Il y a deux types de personnes, celles qui ont perdu des données, et celles qui vont en perdre.
+## Il y a deux types de personnes, celles qui ont perdu des données, et celles qui vont en perdre
 
 * Backup
 
@@ -41,7 +41,7 @@ Forme final: une présentation, titre + commentaire ?
 * Celle la permet de résoudre 99% des problemes d'IT
 * Vérifier toute la chaine de communication, que ça soit matériel, logiciel ou humain
 
-## J'entends ...
+## J'entends
 
 * Il a pas entendu et s'en fou
 * Il est contre cette idée
@@ -92,7 +92,6 @@ Forme final: une présentation, titre + commentaire ?
 * historisation
 * ...
 
-
 ## Si on ne peut plus prévoir de période de maintenance, il est déjà trop tard
 
 * Si tu ne prévoit pas de maintenance, la maintenance viendra à toi
@@ -109,13 +108,17 @@ Forme final: une présentation, titre + commentaire ?
 
 * On va mettre ton poste en prod
 
-## Les shell sans set -euo pipefail au début, c'est le MAL.
+## Les shell sans set -euo pipefail au début, c'est le MAL
 
-* https://gist.github.com/mohanpedala/1e2ff5661761d3abd0385e8223e16425?permalink_comment_id=3935570
+* <https://gist.github.com/mohanpedala/1e2ff5661761d3abd0385e8223e16425?permalink_comment_id=3935570>
 
 ## On écris du code pour etre lu
 
 * la complexité du code amene des erreurs
 * l'élégance d'un code et sa beauté ... n'est pas sa compléxité mais la faculté d'étre compréhensible par un maximum de personne
 * Phrase de D.Ritchie (à vérifier) : "Unix est tellment simple qu'il faut etre un génie pour le comprendre"
-* https://laravel-france.com/posts/vous-ecrivez-pour-etre-lu
+* <https://laravel-france.com/posts/vous-ecrivez-pour-etre-lu>
+
+## C'est toujours le DNS
+
+* On pourrais en faire un livre complet :)
