@@ -121,4 +121,4 @@ Forme final: une présentation, titre + commentaire ?
 
 ## C'est toujours le DNS
 
-* On pourrais en faire un livre complet :)
+* On pourrait en faire un livre complet ! :)
