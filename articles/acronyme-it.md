@@ -9,7 +9,7 @@
 | DCIM | Data Center Infrastructure Management | Netbox |
 | IPAM | IP address management | Netbox |
 | MFA | authentification multifacteur | code de connexion temporaire sms, mail, ... |
-| SIEM | Un système de gestion des informations et des événements de sécurité | wazuh |
+| SIEM | Security information and event management / Système de gestion des informations et des événements de sécurité | wazuh |
 | CTI | Cyber Threat Intelligence | crowdsec, opencti |
 | IDS | Système de détection d'intrusion | snort, suricata |
 | IPS | Système de Prévention des Intrusions | snort, suricata |
