@@ -2,4 +2,4 @@
 
 - Script de Création/Gestion de LXC
 - Peu interessant depuis l'évolution des différentes version
-- A nettoyer : Contien du code infra historique le répertoire vservers n'etant plus d'actualité
+- interet historique : Il est plus simple de gérer des LXC via incus ou proxmox, voir avec les comandes de base.
