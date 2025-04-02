@@ -16,6 +16,18 @@ Il suffit de restaurer à la main depuis une backup. (j'ai du re-spécifier la t
 pct restore <containerId> <pathToBackupArchive> --rootfs <sizeInGiB> --storage <nameOfTargetStorage>
 ```
 
+### backup sur le noeud proxmox
+
+Il peut etre ineteressant d'installer proxmoxbackupserver directement sur le noeud plutot que dans une vm.
+
+- Ouvrir le port 8007
+
+```bash
+echo "deb http://download.proxmox.com/debian/pbs $(awk -F'=' '/VERSION_CODENAME/ {print $2;}' /etc/os-release) pbs-no-subscription" >> /etc/apt/sources.list
+apt update
+apt install proxmox-backup
+```
+
 ### ajouter un clavier fr dans un cloudinit proxmox
 
 ```bash
