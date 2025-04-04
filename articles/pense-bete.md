@@ -81,5 +81,12 @@ strings /sys/firmware/acpi/tables/MSDM
 
 ### Eviter la connection a un compte microsoft lors de l'installation
 
-* ouvrir une console avec MAJ+F10
-* taper : ``OOBE\BYPASSNRO``
+* Lors de l’invite de création de compte Microsoft :
+  * ouvrir une console avec MAJ+F10
+  * taper : ``OOBE\BYPASSNRO``
+
+### Eviter la connection a un compte microsoft lors de l'installation (V2) à tester
+
+* Lors de l’invite de création de compte Microsoft :
+  * ouvrir une console avec MAJ+F10
+  * taper : ``start ms-cxh:localonly``
