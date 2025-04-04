@@ -122,3 +122,12 @@ Forme final: une présentation, titre + commentaire ?
 ## C'est toujours le DNS
 
 * On pourrait en faire un livre complet ! :)
+
+## Toujours prévoir une solution de sortie
+
+Lorsqu'on intégre une infra privatif il faut toujours prévoir une solution de sortie au cas ou les conditions d'usage, le tarif ou la qualité changerais brutalement.
+
+* Voir augmentation subite et violente deux années de suite des licences VMWare
+* Les fins de services d'azure
+* Les limitations de dockerhub
+* ...
