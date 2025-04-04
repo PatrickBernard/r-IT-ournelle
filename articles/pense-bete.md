@@ -63,7 +63,9 @@ apt purge $(dpkg -l | grep '^rc' | awk '{print $2}')
 
 ### psql lent sur proxmox/lxc : (3h => 2 semaines)
 
-* (todo) problème apparement lié à zfs ?
+* chez aday
+  * (todo) problème apparement lié à zfs ?
+  * ssh est aussi affecté, le problème est général, probablement un pb de configuration
 
 ## windows
 
