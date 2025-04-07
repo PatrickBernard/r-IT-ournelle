@@ -55,6 +55,12 @@ Déconseiller en production
 apt install zram-tools
 ```
 
+### swapiness a 10
+```bash
+echo "vm.swappiness=10" > /etc/sysctl.d/swappiness.conf
+sysctl -p /etc/sysctl.d/swappiness.conf
+```
+
 ### purger les vieille config
 
 ```bash
