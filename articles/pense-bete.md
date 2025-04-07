@@ -42,9 +42,8 @@ apt install keyboard-configuration console-setup
 * Pas besoin de trop utiliser le swap sur le machine récente
 
 ```bash
-echo "vm.swappiness=10" >> /etc/sysctl.conf
-sysctl -p
-sysctl vm.swappiness
+echo "vm.swappiness=10" > /etc/sysctl.d/swappiness.conf
+sysctl -p /etc/sysctl.d/swappiness.conf
 ```
 
 * zram-tools pour mettre le swap sur une partie de la mémoire compresser
@@ -56,10 +55,7 @@ apt install zram-tools
 ```
 
 ### swapiness a 10
-```bash
-echo "vm.swappiness=10" > /etc/sysctl.d/swappiness.conf
-sysctl -p /etc/sysctl.d/swappiness.conf
-```
+
 
 ### purger les vieille config
 
