@@ -2,6 +2,12 @@
 
 Des actuces en vrac
 
+## Git
+
+```bash
+git commit --allow-empty -m "commit vide pour déclencher des actions"
+```
+
 ## Proxmox
 
 ### proxmox : pct restore failed (no space left)
