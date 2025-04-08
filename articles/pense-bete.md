@@ -2,6 +2,14 @@
 
 Des actuces en vrac
 
+## autoconfiguration de serveur post install
+
+- utiliser un fichier cloud-init
+  - créer les user de base
+  - install ansible
+  - tirer la job ansible/configuration depuis git
+  - src : <https://blog.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/pull/>
+
 ## Git
 
 ```bash
@@ -44,24 +52,21 @@ apt install keyboard-configuration console-setup
 
 ### Installation Linux avec un SSD
 
-* monter les Partitions en noatime
-* Pas besoin de trop utiliser le swap sur le machine récente
+- monter les Partitions en noatime
+- Pas besoin de trop utiliser le swap sur le machine récente
 
 ```bash
 echo "vm.swappiness=10" > /etc/sysctl.d/swappiness.conf
 sysctl -p /etc/sysctl.d/swappiness.conf
 ```
 
-* zram-tools pour mettre le swap sur une partie de la mémoire compresser
+- zram-tools pour mettre le swap sur une partie de la mémoire compresser
 
 Déconseiller en production
 
 ```bash
 apt install zram-tools
 ```
-
-### swapiness a 10
-
 
 ### purger les vieille config
 
@@ -71,9 +76,9 @@ apt purge $(dpkg -l | grep '^rc' | awk '{print $2}')
 
 ### psql lent sur proxmox/lxc : (3h => 2 semaines)
 
-* chez aday
-  * (todo) problème apparement lié à zfs ?
-  * ssh est aussi affecté, le problème est général, probablement un pb de configuration
+- chez aday
+  - (todo) problème apparement lié à zfs ?
+  - ssh est aussi affecté, le problème est général, probablement un pb de configuration
 
 ## windows
 
@@ -91,12 +96,12 @@ strings /sys/firmware/acpi/tables/MSDM
 
 ### Eviter la connection a un compte microsoft lors de l'installation
 
-* Lors de l’invite de création de compte Microsoft :
-  * ouvrir une console avec MAJ+F10
-  * taper : ``OOBE\BYPASSNRO``
+- Lors de l’invite de création de compte Microsoft :
+  - ouvrir une console avec MAJ+F10
+  - taper : ``OOBE\BYPASSNRO``
 
 ### Eviter la connection a un compte microsoft lors de l'installation (V2) à tester
 
-* Lors de l’invite de création de compte Microsoft :
-  * ouvrir une console avec MAJ+F10
-  * taper : ``start ms-cxh:localonly``
+- Lors de l’invite de création de compte Microsoft :
+  - ouvrir une console avec MAJ+F10
+  - taper : ``start ms-cxh:localonly``
