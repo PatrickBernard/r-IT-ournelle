@@ -61,7 +61,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ## Premier test
 
-- Lancer un conteneur : ``docker run nginx:latest`` (ctrl+c pour reprendre la main)
+- Lancer un conteneur : ``docker run nginx:latest``
+on aura la sortie de log sur l'écran (ctrl+c pour reprendre la main)
 - Lister les conteneurs actif : ``docker ps``
 - Lister tout les conteneurs : ``docker ps -a``
 - Lancer un conteneur en arriere plan : ``docker run -d nginx:latest``
