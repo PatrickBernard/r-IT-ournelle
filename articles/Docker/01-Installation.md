@@ -58,3 +58,10 @@ Exemple : A lancer directement sur le noeud proxmox pour créer un conteneur lxc
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
 ```
+
+## Premier test
+
+- Lancer un conteneur : ``docker run nginx:latest`` (ctrl+c pour reprendre la main)
+- Lister les conteneurs actif : ``docker ps``
+- Lister tout les conteneurs : ``docker ps -a``
+- Lancer un conteneur en arriere plan : ``docker run -d nginx:latest``
